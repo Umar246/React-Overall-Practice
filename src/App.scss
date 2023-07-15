@@ -1,0 +1,17 @@
+//_bootstrap.scss wali file ko link kia ha idar . src => scss => _bootstrap.scss
+@import '/src/scss/bootstrap';
+@import '/src/scss/header'; 
+
+
+
+//_____________________________________________________________________________________________
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1 0 auto;
+}
